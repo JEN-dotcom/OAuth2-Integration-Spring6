@@ -32,7 +32,7 @@ To get started with this project, follow these steps:
    ```shell
    git clone https://github.com/JEN-dotcom/OAuth2-Integration-Spring6.git
 
-   ## Setup
+## Setup
 
 1. Navigate to the project directory:
 
@@ -40,20 +40,22 @@ To get started with this project, follow these steps:
 
 3. Build and run the application:
 
-```shell
-./mvnw spring-boot:run
-The application should now be running. Access it in your browser at http://localhost:8080.
+   ```shell
+   ./mvnw spring-boot:run
+   
+The application should now be running. Access it in your browser at http://localhost:8080
 
 ## Usage
-Register new users using the registration service.
-Log in using your credentials to obtain an access token.
-Use the obtained access token to access protected resources.
-Customize the security configuration in SecurityConfiguration.java to fit your project's needs.
+
+- Register new users using the registration service.
+- Log in using your credentials to obtain an access token.
+- Use the obtained access token to access protected resources.
+- Customize the security configuration in SecurityConfiguration.java to fit your project's needs.
 
 ## Contributing
 Contributions are welcome! Please follow these guidelines when contributing to this project:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes and push to your branch.
-Create a pull request explaining your changes.
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Commit your changes and push to your branch.
+- Create a pull request explaining your changes.
